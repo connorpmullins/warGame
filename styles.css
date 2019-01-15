@@ -1,0 +1,62 @@
+/*Global Styles*/
+html, body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+}
+
+footer {
+  flex-shrink: 1;
+}
+
+/*Class Styles*/
+.card {
+  align-items: center;
+  background-color: #700000;
+  color: lightGrey;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.deck {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+}
+
+/*Element Styles*/
+#gameWindow {
+  align-items: center;
+  background-color: #000070;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 20px;
+}
+
+#gameResults {
+  align-items: center;
+  background-color: #700000;
+  color: lightGrey;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
+  margin-left: 0px;
+  padding: 20px;
+}
